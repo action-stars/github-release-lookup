@@ -1,0 +1,40 @@
+name: GitHub Release Lookup
+description: Looks up a GitHub repository release.
+branding:
+  icon: cloud
+  color: gray-dark
+inputs:
+  github_token:
+    description: GitHub token to use for authentication.
+    required: true
+  owner:
+    description: GitHub repository owner.
+    required: true
+  repository:
+    description: GitHub repository.
+    required: true
+  tag_prefix:
+    description: Version tag prefix.
+    required: false
+    default: v
+  version:
+    description: Version of the GitHub release to lookup; latest is supported.
+    required: false
+    default: latest
+outputs:
+  version:
+    description: Validated version.
+    value: ${{ steps.lookup.outputs.version }}
+runs:
+  using: composite
+  steps:
+    - name: Lookup
+      id: lookup
+      shell: bash
+      env:
+        GITHUB_TOKEN: ${{ inputs.github_token }}
+        OWNER: ${{ inputs.owner }}
+        REPOSITORY: ${{ inputs.repository }}
+        VERSION: ${{ inputs.version }}
+        TAG_PREFIX: ${{ inputs.tag_prefix }}
+      run: ${GITHUB_ACTION_PATH}/scripts/lookup.sh
