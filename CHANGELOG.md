@@ -15,6 +15,10 @@
 
 ## [UNRELEASED]
 
+### Changed
+
+- Update _action-stars/generic-workflows_ from `0.5.3` to `0.6.0`. ([#15](https://github.com/action-stars/github-release-lookup/pull/15)) _@dependabot_
+
 ## [v0.1.0] - 2023-05-22
 
 ### Added
