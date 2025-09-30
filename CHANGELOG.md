@@ -20,6 +20,7 @@
 - Update _action-stars/generic-workflows_ from `0.5.3` to `0.6.0`. ([#15](https://github.com/action-stars/github-release-lookup/pull/15)) _@dependabot_
 - Update _action-stars/generic-workflows_ from `0.6.0` to `0.7.0`. ([#16](https://github.com/action-stars/github-release-lookup/pull/16)) _@dependabot_
 - Update _action-stars/generic-workflows_ from `0.7.0` to `0.7.1`. ([#17](https://github.com/action-stars/github-release-lookup/pull/17)) _@dependabot_
+- Update _action-stars/generic-workflows_ from `0.7.1` to `0.7.2`. ([#18](https://github.com/action-stars/github-release-lookup/pull/18)) _@dependabot_
 
 ## [v0.1.0] - 2023-05-22
 
