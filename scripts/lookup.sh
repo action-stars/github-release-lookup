@@ -2,13 +2,16 @@
 set -euo pipefail
 
 if [[ "${VERSION:-latest}" == "latest" ]]; then
-  version="$(gh api "repos/${OWNER}/${REPOSITORY}/releases/latest" -q .tag_name)"
+  tag_name="$(gh api "repos/${OWNER}/${REPOSITORY}/releases/latest" --jq '.tag_name')"
 else
-  version="$(gh api "repos/${OWNER}/${REPOSITORY}/releases/tags/${TAG_PREFIX}${VERSION}" -q .tag_name)"
+  tag_name="$(gh api "repos/${OWNER}/${REPOSITORY}/releases/tags/${TAG_PREFIX}${VERSION}" -jq '.tag_name')"
 fi
 
 if [[ -n "${TAG_PREFIX}" ]]; then
-  version="${version/#${TAG_PREFIX}/}"
+  version="${tag_name/#${TAG_PREFIX}/}"
 fi
 
-echo "version=${version}" >>"${GITHUB_OUTPUT}"
+{
+  echo "tag_name=${tag_name}"
+  echo "version=${version}"
+} >>"${GITHUB_OUTPUT}"
