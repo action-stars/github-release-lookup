@@ -20,6 +20,6 @@ jobs:
     uses: action-stars/generic-workflows/.github/workflows/validate-gh-workflows.yaml@d957d704303a8454282dc346eb7de9254376919c # v0.8.0
     with:
       auto_doc: true
-      markdownlint: true
       shellcheck: true
       yamlfmt: true
+      rumdl: true

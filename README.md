@@ -26,8 +26,9 @@ Looks up a GitHub repository release.
 
 <!-- AUTO-DOC-OUTPUT:START - Do not remove or modify this section -->
 
-| OUTPUT  |  TYPE  |    DESCRIPTION     |
-|---------|--------|--------------------|
-| version | string | Validated version. |
+|  OUTPUT  |  TYPE  |     DESCRIPTION     |
+|----------|--------|---------------------|
+| tag_name | string | Validated tag name. |
+| version  | string | Validated version.  |
 
 <!-- AUTO-DOC-OUTPUT:END -->

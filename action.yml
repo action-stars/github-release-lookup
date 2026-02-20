@@ -22,6 +22,9 @@ inputs:
     required: false
     default: latest
 outputs:
+  tag_name:
+    description: Validated tag name.
+    value: ${{ steps.lookup.outputs.tag_name }}
   version:
     description: Validated version.
     value: ${{ steps.lookup.outputs.version }}

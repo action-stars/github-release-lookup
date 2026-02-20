@@ -15,6 +15,12 @@
 
 ## [UNRELEASED]
 
+## [v0.2.0] - 2026-02-20
+
+### Added
+
+- Add support for outputting tag name. ([#22](https://github.com/action-stars/github-release-lookup/pull/22)) _@stevehipwell_
+
 ### Changed
 
 - Update _action-stars/generic-workflows_ from `0.5.3` to `0.6.0`. ([#15](https://github.com/action-stars/github-release-lookup/pull/15)) _@dependabot_
@@ -40,5 +46,6 @@
 <!--
 RELEASES
 -->
-[UNRELEASED]: https://github.com/action-stars/github-release-lookup/compare/v0.1.0...HEAD
+[UNRELEASED]: https://github.com/action-stars/github-release-lookup/compare/v0.2.0...HEAD
+[v0.2.0]: https://github.com/action-stars/github-release-lookup/releases/tag/v0.2.0
 [v0.1.0]: https://github.com/action-stars/github-release-lookup/releases/tag/v0.1.0
