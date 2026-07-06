@@ -20,6 +20,9 @@
 - Update _action-stars/generic-workflows/.github/workflows/dependabot-changelog.yaml_ from `0.8.0` to `0.9.0`. ([#23](https://github.com/action-stars/github-release-lookup/pull/23)) _@dependabot_
 - Update _action-stars/generic-workflows/.github/workflows/release.yaml_ from `0.8.0` to `0.9.0`. ([#23](https://github.com/action-stars/github-release-lookup/pull/23)) _@dependabot_
 - Update _action-stars/generic-workflows/.github/workflows/validate-gh-workflows.yaml_ from `0.8.0` to `0.9.0`. ([#23](https://github.com/action-stars/github-release-lookup/pull/23)) _@dependabot_
+- Update _action-stars/generic-workflows/.github/workflows/dependabot-changelog.yaml_ from `0.9.0` to `0.11.0`. ([#24](https://github.com/action-stars/github-release-lookup/pull/24)) @dependabot
+- Update _action-stars/generic-workflows/.github/workflows/release.yaml_ from `0.9.0` to `0.11.0`. ([#24](https://github.com/action-stars/github-release-lookup/pull/24)) @dependabot
+- Update _action-stars/generic-workflows/.github/workflows/validate-gh-workflows.yaml_ from `0.9.0` to `0.11.0`. ([#24](https://github.com/action-stars/github-release-lookup/pull/24)) @dependabot
 
 ## [v0.2.0] - 2026-02-20
 
