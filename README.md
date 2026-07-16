@@ -1,6 +1,6 @@
 # GitHub Release Lookup GitHub Action
 
-> ![WARNING]
+> [!WARNING]
 > This action is deprecated; please use the [ghactl-action](https://github.com/action-stars/ghactl-action) instead.
 
 ## Description
